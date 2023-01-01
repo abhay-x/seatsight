@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us{% endblock title%}
+
+{% block body %} 
+    Hello 
+    {% if name %}
+        {{name}}
+    {% else %}
+        user
+    {% endif %}
+    , Welcome to about!!
+{% endblock body %}
